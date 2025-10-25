@@ -1,4 +1,4 @@
-import boto4
+import boto3
 
 AWS_REGION = "ap-south-1"
 EC2_RESOURCE = boto3.resource('ec2', region_name=AWS_REGION)
